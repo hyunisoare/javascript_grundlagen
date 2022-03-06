@@ -1,0 +1,10 @@
+const array = [1, 5, 2, 6, 3, 7, 4];
+
+function solution(array, commands) {
+    let answer = [];
+    let spliced = array.splice(1,4); 
+        console.log(spliced);
+    }
+    return
+}
+

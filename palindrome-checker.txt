@@ -1,0 +1,11 @@
+function palindrome(str) {
+  let polishedString = str.replace(/\W+|_/g,"").toLowerCase();
+  let reversedString = polishedString.split("").reverse().join("");
+  //console.log(polishedString, reversedString)
+  return polishedString != reversedString ? false : true;
+}
+let result = palindrome ("My age is 0, 0 si ega ym.");
+
+
+console.log(result);
+

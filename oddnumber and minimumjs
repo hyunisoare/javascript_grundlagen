@@ -1,0 +1,15 @@
+function findingNum(arr){
+    let answer = [];
+    let total = 0;
+    for (var x of arr){
+        if (x%2===1){
+            total += x;
+            answer.push(x);
+        }
+    }
+    console.log(total);
+    console.log(Math.max(...answer));
+}
+
+let arr = [4, 12, 15, 17, 21, 39];
+findingNum(arr);

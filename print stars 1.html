@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript nested loops demo</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+        var rows = 5;
+
+        for (var i = 1; i <= rows; i++) {
+            for (var k = 1; k <= (rows-i); k++) {
+                document.write("&nbsp;");
+            } 
+                for (var j = 1; j <= i; j++) {
+                    document.write("* ");
+                }
+                document.write("<br/>");
+        }
+
+
+    </script>
+
+</body>
+
+</html>
